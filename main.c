@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "singly_linked_list.h"
 #include "stack.h"
 

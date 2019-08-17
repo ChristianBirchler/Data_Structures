@@ -1,7 +1,3 @@
-//
-// Created by christian on 17.08.19.
-//
-
 #include <stdlib.h>
 #include <stdio.h>
 #include "singly_linked_list.h"

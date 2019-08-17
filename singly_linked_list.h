@@ -1,7 +1,3 @@
-//
-// Created by christian on 17.08.19.
-//
-
 #ifndef ADT_SINGLY_LINKED_LIST_H
 #define ADT_SINGLY_LINKED_LIST_H
 
