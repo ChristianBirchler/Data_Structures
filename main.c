@@ -1,20 +1,24 @@
 #include <stdio.h>
-#include "singly_linked_list.h"
-#include "stack.h"
+#include "queue.h"
 
 
 int main() {
 
-    struct stack *stack = create_stack();
+    struct queue *q = create_queue();
 
-    push(stack, 5);
-    push(stack, 8);
+    enqueue(q, 5);
+    enqueue(q, 9);
+    enqueue(q, 2);
 
-    int val = pop(stack);
+    print_queue(q);
+
+    int val = dequeue(q);
     printf("%d\n", val);
 
-    val = pop(stack);
+    val = dequeue(q);
     printf("%d\n", val);
+
+    print_queue(q);
 
     return 0;
 }
